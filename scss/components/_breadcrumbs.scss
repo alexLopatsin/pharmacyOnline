@@ -1,0 +1,21 @@
+.breadcrumbs {
+    font-size: 13px;
+    color: #232323;
+    margin: 17px 30px;
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .item {
+        display: inline-block;
+        font-style: italic;
+
+        &:not(:first-child) {
+            &:before {
+                content: '/';
+                padding: 0 10px;
+            }
+        }
+    }
+}
