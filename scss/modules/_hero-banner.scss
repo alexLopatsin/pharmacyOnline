@@ -1,0 +1,18 @@
+.hero-banner {
+    height: 758px;
+    padding-top: $header-height;
+    background: linear-gradient(to bottom, #0268d0, #03b8ea);
+
+    > * {
+        text-align: center;
+        display: block;
+    }
+
+    .video-wrap {
+        text-align: center;
+
+        video {
+            display: inline-block;
+        }
+    }
+}
