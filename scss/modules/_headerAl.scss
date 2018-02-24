@@ -114,7 +114,7 @@
     }
 
     .menu {
-        height: 76px;
+        height: $header-size;
         border-bottom: $border;
         display: flex;
         justify-content: space-between;
@@ -128,7 +128,7 @@
 
             .link {
                 color: #000000;
-                line-height: 76px;
+                line-height: $header-size;
                 width: 217px;
                 display: inline-block;
                 border-right: $border;
@@ -138,8 +138,9 @@
 
                 img {
                     position: absolute;
-                    top: 35px;
+                    top: 50%;
                     right: 13px;
+                    transform: translateY(-50%);
                 }
             }
 
@@ -152,7 +153,7 @@
         .link-menu {
             display: flex;
             justify-content: flex-end;
-            line-height: 76px;
+            line-height: $header-size;
             align-items: center;
             a {
                 color: #000;
@@ -163,6 +164,26 @@
 
         .cart {
             background-color: #fbb840;
+            text-align: center;
+            width: $header-size;
+            height: $header-size;
+            line-height: 1;
+            padding: 10px;
+
+            .icon-wrap {
+                position: relative;
+                .circle {
+                    position: absolute;
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 50%;
+                    background: #fff;
+                    left: 25px;
+                    top: -4px;
+                    font-size: 12px;
+                    padding-top: 2px;
+                }
+            }
 
             a {
                 color: #fff;
