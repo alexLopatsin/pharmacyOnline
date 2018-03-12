@@ -1,0 +1,20 @@
+.autorization-block {
+
+    overflow: hidden;
+    width: 816px;
+    margin: 0 auto;
+
+    .title {
+        margin-bottom: 70px;
+    }
+
+    .registration {
+        float: left;
+        width: 50%;
+    }
+
+    .login-form {
+        float: right;
+        width: 50%;
+    }
+}

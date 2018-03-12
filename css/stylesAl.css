@@ -449,6 +449,30 @@ template {
   padding: 0 10px;
 }
 
+.input-wrapper {
+  position: relative;
+  width: 347px;
+  height: 54px;
+}
+.input-wrapper input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e1e1e1;
+  padding: 20px 10px;
+}
+.input-wrapper input:focus + label {
+  top: 10px;
+  bottom: auto;
+}
+.input-wrapper input + label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  font-size: 12px;
+  transition: top 0.3s ease;
+}
+
 .header {
   background: #fff;
 }
@@ -606,6 +630,23 @@ template {
   padding: 0;
 }
 
+.autorization-block {
+  overflow: hidden;
+  width: 816px;
+  margin: 0 auto;
+}
+.autorization-block .title {
+  margin-bottom: 70px;
+}
+.autorization-block .registration {
+  float: left;
+  width: 50%;
+}
+.autorization-block .login-form {
+  float: right;
+  width: 50%;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -631,6 +672,11 @@ a:active, a:visited {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   line-height: 1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
 }
 
 /*# sourceMappingURL=stylesAl.css.map */

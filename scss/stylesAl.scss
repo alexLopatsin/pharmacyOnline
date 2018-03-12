@@ -1,9 +1,12 @@
 @import "variables";
 @import "normalize";
 
+
 @import "components/breadcrumbs";
+@import "components/form";
 
 @import "modules/headerAl";
+@import "modules/LoginForm";
 
 
 ul {
@@ -34,4 +37,9 @@ a {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     line-height: 1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
 }
