@@ -11,6 +11,29 @@
     .registration {
         float: left;
         width: 50%;
+
+        h2 {
+            font-weight: bolder;
+        }
+
+         p{
+            font-weight: bolder;
+             font-size: 13px;
+             margin-bottom: 18px;
+        }
+
+        ul{
+            margin-bottom: 27px;
+        }
+
+        li{
+            line-height: 2;
+            font-size: 13px;
+
+            img {
+                margin-right: 13px;
+            }
+        }
     }
 
     .login-form {
@@ -20,5 +43,7 @@
 
     h2 {
         font-weight: 100;
+        font-size: 25px;
+        margin-bottom: 25px;
     }
 }

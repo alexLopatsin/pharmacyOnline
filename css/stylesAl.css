@@ -696,12 +696,32 @@ table {
   float: left;
   width: 50%;
 }
+.autorization-block .registration h2 {
+  font-weight: bolder;
+}
+.autorization-block .registration p {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+.autorization-block .registration ul {
+  margin-bottom: 27px;
+}
+.autorization-block .registration li {
+  line-height: 2;
+  font-size: 13px;
+}
+.autorization-block .registration li img {
+  margin-right: 13px;
+}
 .autorization-block .login-form {
   float: right;
   width: 50%;
 }
 .autorization-block h2 {
   font-weight: 100;
+  font-size: 25px;
+  margin-bottom: 25px;
 }
 
 ul {
